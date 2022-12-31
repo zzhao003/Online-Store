@@ -23,8 +23,18 @@ code {
 
 h1 {
   font-size: 18px !important;
+  color: black !important;
+  text-decoration: none !important;
 }
 
 .img-fluid {
   height: 200px !important;
+}
+
+.big-img {
+  height: 300px !important;
+}
+
+p {
+  text-align: left;
 }
