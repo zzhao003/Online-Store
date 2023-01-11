@@ -15,7 +15,7 @@ const Homescreen = () => {
     axios
       .get("/api/products/getallproducts")
       .then((res) => {
-        console.log(res);
+        // console.log(res);
         // setProducts(res.data);
         dispatch(productsActions.GET_PRODUCTS_SUCCESS(res.data));
       })
